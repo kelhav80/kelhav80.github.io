@@ -1,0 +1,42 @@
+ body
+ {
+            text-align: center;
+            font-family: "Bebas Neue", sans-serif;
+
+            font-style: normal;
+            background-color: #87CEEB;
+}
+
+
+        img {
+            width: 400px;
+        }
+
+        body {
+                --primary-color: #6c5ce7;
+                --secondary-color: #25274d;
+                --accent-color: #9c27b0;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .navbar {
+                background-color: var(--primary-color);
+                border-bottom: 2px solid var(--secondary-color);
+            }
+
+            .navbar-brand {
+                color: var(--secondary-color);
+                font-weight: bold;
+            }
+
+            .nav-link {
+                color: var(--secondary-color);
+                transition: color 0.3s;
+            }
+
+            .nav-link:hover {
+                color: var(--accent-color);
+            }
